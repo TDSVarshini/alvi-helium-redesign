@@ -1,0 +1,7 @@
+analyzer:
+  language:
+    strict-raw-types: true
+linter:
+  rules:
+    - prefer_const_constructors
+    - avoid_print
