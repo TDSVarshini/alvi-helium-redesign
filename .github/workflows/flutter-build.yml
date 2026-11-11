@@ -27,6 +27,9 @@ jobs:
       - name: Set up web platform
         run: flutter create --platforms=web .
 
+      - name: Remove generated default test
+        run: rm -f test/widget_test.dart
+
       - name: Get dependencies
         run: flutter pub get
 
